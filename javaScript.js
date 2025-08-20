@@ -76,9 +76,9 @@ function playGame() {
 
   function winner(player, computer) {
     if (player > computer) {
-      console.log('You won the game!');
+      console.log('You won the game! Refresh page to try again.');
     } else if (player === computer) {
-      console.log("It's a tie!");
+      console.log("It's a tie! Refresh page to try again.");
     } else {
       console.log('You lost the game! Refresh page to try again.');
     }
