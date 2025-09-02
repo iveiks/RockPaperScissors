@@ -29,6 +29,10 @@ button:hover {
   cursor: pointer;
 }
 
+button[disabled] {
+  cursor: default;
+}
+
 div #info {
   align-content: center;
   width: 100%;
